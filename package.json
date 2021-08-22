@@ -1,0 +1,28 @@
+{
+  "name": "@flagpolejs/json-to-jtd",
+  "version": "0.0.1",
+  "description": "Convert JSON into JSON Type Definition (JTD) Schema",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flagpolejs/json-to-jtd.git"
+  },
+  "author": "Jason Byrne <jasonbyrne662@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flagpolejs/json-to-jtd/issues"
+  },
+  "homepage": "https://github.com/flagpolejs/json-to-jtd#readme",
+  "keywords": [
+    "json",
+    "schema",
+    "jtd",
+    "typescript",
+    "nodeps",
+    "jsontypedef",
+    "jsontypedefinition"
+  ]
+}
