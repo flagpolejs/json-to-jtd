@@ -51,6 +51,12 @@ export default function generateJtd(json: any): Jtd_Schema {
 
   function parseItem(item: any): Jtd_Schema {
     const myType = typeof item;
+    // Handle null
+    if (item === null || item === undefined) {
+      return {
+        nullable: true,
+      };
+    }
     // If it's an array then we define the sub-schema for its items
     if (Array.isArray(item)) {
       return parseArray(item);

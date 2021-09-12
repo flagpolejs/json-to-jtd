@@ -1,6 +1,6 @@
 {
   "name": "@flagpolejs/json-to-jtd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert JSON into JSON Type Definition (JTD) Schema",
   "main": "dist/index.js",
   "scripts": {
